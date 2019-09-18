@@ -1,27 +1,38 @@
 body {
   /* Old browsers */
-  background: #141E30;
+  background: #5DADE2;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  background: -webkit-linear-gradient(-45deg, #5DADE2 #5DADE2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
+  background: linear-gradient(-45deg, #5DADE2, #5DADE2);
   margin: 0;
   padding: 0;
 }
 
+
 h1 {
   text-align: center;
-  color: #FFF;
+  color: #17202A;
   font-size: 2em;
   font-family: "Georgia";
   padding-top: 100px;
-  width: 100%;
+  width: 100%; 
   
 }
 
 h2 {
+    color:#17202A;
+    font-family: "Helvetica";
+    font-weight: bold;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+  }
+
+p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  color:#283747;
   font-weight: 100;
   font-size: 22px;
   font-family: "Georgia";
@@ -31,15 +42,19 @@ h2 {
   width: 70%;
 }
 
-p {
-  color: AliceBlue;
-  font-family: "Helvetica";
-  font-weight: bold;
-  line-height: 1.3em;
-  font-size: 18px;
-  text-align: left;
-  width: 100%;
-}
+ul {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color:#283747;
+    font-weight: 100;
+    font-size: 22px;
+    font-family: "Georgia";
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+  }
+
+
 
 .byline {
   font-family: Helvetica;
@@ -75,8 +90,20 @@ p {
   background-image: url(" https://code.org/images/app-lab/applab-tool.png");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 400px;
+  width: 100%;
 }
+
+
+.profile_pic {
+    border-radius: 50px;
+    background: url("https://media.licdn.com/dms/image/C5603AQE8mGj6LLzSnw/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=zc7k28M7pYFp3mvkGWQu10w3D6J-7P-uH_fWthzPkv0") repeat 0 0;
+    padding-top: 450px;
+    background-size: cover;
+    height: 200px;
+    width: 50%;
+
+  }
 
 .writer-img {
   -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
